@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'src')));
 app.get('/', function(request, response) {
   response.sendFile(__dirname + '/src/index.html')
 });
-
+ 
 app.listen(PORT, function(error) {
   if (error) {
     console.error(error);
