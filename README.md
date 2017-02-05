@@ -1,8 +1,7 @@
-# Learning ReactJS 
+# Learning ReactJS
 
 ## Build Single Page Application with React
 
-ref: https://github.com/learncodeacademy/react-js-tutorials
+Demo link: https://reactjsdemo.herokuapp.com/
 
-demo link: https://reactjsdemo.herokuapp.com/
-
+*Notes*: work In-progress 👩‍💻

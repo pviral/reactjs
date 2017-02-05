@@ -4,11 +4,11 @@
   "description": "reactjs example with heroku",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "postinstall": "webpack -p --config webpack.prod.config.js"
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "babel-core": "^6.22.1",
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
     "babel-plugin-react-html-attrs": "^2.0.0",
@@ -29,10 +29,6 @@
     "webpack-dev-middleware": "^1.6.1",
     "webpack-dev-server": "^1.14.1",
     "webpack-hot-middleware": "^2.10.0"
-  },
-  "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
