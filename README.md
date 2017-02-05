@@ -4,4 +4,4 @@
 
 Demo link: https://reactjsdemo.herokuapp.com/
 
-*Notes* : work In-progress 👩‍💻
+*Notes*: work In-progress 👩‍💻
